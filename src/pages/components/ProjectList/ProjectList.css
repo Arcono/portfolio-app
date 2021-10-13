@@ -46,8 +46,8 @@
     display: flex;
     width: 35vw;
     height: calc( 35vw * 0.75);
-    min-height: calc( 25rem * 0.75); ;
-    min-width: 25rem;
+    min-height: calc( 10rem * 0.75); ;
+    min-width: 10rem;
     margin: 4vw;
 
 }
@@ -75,10 +75,10 @@
 }
 
 .project-text-wrapper{
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
     position: relative;
     z-index: 10;
     width: 100%;
@@ -91,6 +91,7 @@
     opacity: 0;
     justify-content: center;
     border-radius: 10px;
+    font-size: 2vw;
 
 }
 
@@ -99,11 +100,12 @@
 }
 
 .project-title{
-    color: rgb(18, 120, 189)
+    color: rgb(18, 120, 189);
+    
 }
 
 .project-subtitle{
-    color: rgb(163, 49, 15)
+    color: rgb(163, 49, 15);
 }
 
 .project-description{
