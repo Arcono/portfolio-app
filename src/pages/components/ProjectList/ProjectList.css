@@ -12,12 +12,12 @@
 .project-list-wrapper{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .project-list{
     display: flex;
     flex-wrap: wrap;
-    grid-gap: 10px;
     list-style: none;
     justify-content: center;
     align-items: center;
@@ -46,8 +46,8 @@
     display: flex;
     width: 35vw;
     height: calc( 35vw * 0.75);
-    min-height: calc( 10rem * 0.75); ;
-    min-width: 10rem;
+    min-height: calc( 15rem * 0.75); ;
+    min-width: 15rem;
     margin: 4vw;
 
 }
