@@ -18,7 +18,7 @@ class SkillBadges extends Component {
                     <ul className='badge-list'>
                         {BadgeList.map((item,index) =>{
                             return(
-                                <li key={index}>
+                                <li className='badge-li' key={index}>
                                     <div className='badge-wrapper'>
                                         <div className ='svg-wrapper' >
                                             {item.svg}

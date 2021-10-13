@@ -5,7 +5,7 @@ class ContactForm extends Component {
     render(){
         return(
             <div className='theme-wrapper'>
-                <div>
+                <div className ='section-title'>
                     <div>
                         <h1> Contact Me</h1>
                     </div>

@@ -9,6 +9,11 @@
     align-content: center;
 }
 
+.section-title{
+    width: 100%;
+    text-align: center;
+}
+
 .contact-form-wrapper{
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -69,8 +74,8 @@
 .cf-input{
     display: block;
     border: solid;
-    height: 2rem;
-    width: 25rem;
+    height: 2vw;
+    width: 25vw;
     border-radius: 10px;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
@@ -79,7 +84,7 @@
 .cf-message-input{
     display: block;
     border: solid;
-    height: 15rem;
+    height: 15vw;
     border-color: rgb(0, 0, 0);
     border-width: 1px;
     border-radius: 10px 10px 5px 10px;

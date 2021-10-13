@@ -11,7 +11,7 @@
 }
 
 .badge-list-wrapper{
-    margin: 4rem;
+    margin: 4vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -23,10 +23,15 @@
     list-style: none;
     justify-content: center;
 }
+.badge-list > li{
+    display: flex;
+    margin: 3vw;
+    font-size: 1vw;
+}
+
 .badge-wrapper{
-    height: 7rem;
-    width: 7rem;
-    margin: 3rem;
+    height: 5vw;
+    width: 5vw;
     justify-content: center;
     text-align: center;
 }
