@@ -1,0 +1,43 @@
+.i-main-wrapper{
+    display: flex;
+    background: linear-gradient(175deg, rgb(94, 84, 84) 0%, rgb(52, 51, 58) 100%); 
+    border-top: solid;
+    border-bottom: solid;
+    border-color:black;
+    border-width: 2px; 
+    justify-content: center;
+    align-content: center;
+}
+
+.introduction-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4rem;
+    height:  25rem;
+}
+
+.intro-image{
+    border: solid;
+    border-color: red;
+    border-radius: 50%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+
+.intro-text-wrapper{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 40rem;
+    text-align: center;
+}
+
+.intro-title{
+    color:white;
+
+}
+
+.intro-text{
+    color: white;
+}

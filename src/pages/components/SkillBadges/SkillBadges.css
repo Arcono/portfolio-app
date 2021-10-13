@@ -1,0 +1,36 @@
+.theme-wrapper{
+    background: linear-gradient(175deg, rgb(60, 55, 90) 0%, rgb(52, 51, 58) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid;
+    border-bottom: solid;
+    border-color:black;
+    border-width: 1px;
+    justify-content: center;
+    align-content: center;
+}
+
+.badge-list-wrapper{
+    margin: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.badge-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+.badge-wrapper{
+    height: 7rem;
+    width: 7rem;
+    margin: 3rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.html-badge{
+    fill: rgb(255, 255, 255);
+}

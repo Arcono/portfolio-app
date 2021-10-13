@@ -1,0 +1,89 @@
+.cf-main-wrapper{
+    background: linear-gradient(175deg, rgb(94, 84, 84) 0%, rgb(52, 51, 58) 100%);
+    border-top: solid;
+    border-bottom: solid;
+    border-color:black;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.contact-form-wrapper{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    width: 75%;
+}
+
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.top-wrapper{
+    
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.top-wrapper > div{
+    display: grid;
+    min-width: 12rem;
+    margin: 1rem;
+    
+
+}
+
+
+
+.bottom-wrapper{
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    margin: 1rem;
+    
+}
+
+.bottom-wrapper > div{
+    width: 100%;
+    display: grid;
+    
+
+}
+
+
+.cf-label{
+    display: block;
+}
+
+.cf-input{
+    display: block;
+    border: solid;
+    height: 2rem;
+    width: 25rem;
+    border-radius: 10px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cf-message-input{
+    display: block;
+    border: solid;
+    height: 15rem;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-radius: 10px 10px 5px 10px;
+    resize: vertical;
+    font-size: large;
+    font-family: "Times New Roman", Times, serif;
+}
