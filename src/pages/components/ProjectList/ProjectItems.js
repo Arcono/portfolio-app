@@ -4,7 +4,7 @@ export const ProjectItems = [
     {
         title: "Testing Testing",
         subtitle: "Test",
-        url: 'https://main.d308svfgtasbyf.amplifyapp.com',
+        url: '#',
         cName: 'project-links',
         description: 'the quick brown fox jumps over the lazy dog',
         imgSrc: 'https://cdn.discordapp.com/attachments/824783050856071201/882819823380365392/8-27-2021.png'
